@@ -14,3 +14,6 @@ ex: "django-admin startproject setup ."
     python manage.py runserver
 
 - https://www.toptal.com/developers/gitignore para saber o que não pode subir para o gitignore
+
+Funcionalidade = app
+- python manage.py startapp nome da funcionalidade
