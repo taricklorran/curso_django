@@ -1,0 +1,16 @@
+pip freeze (mostra todas as dependecias do projeto)
+pip freeze > requirements.txt (cria)
+Rodar pip install -r requirements.txt
+para instalar as dependencias
+------------------
+Criar a venv: virtualenv venv
+Ativar a venv: venv/Scripts/Activate e para desativar Deactivate
+-------------------------
+django
+- comando: django-admin help (ver os comandos para rodar o projeto por exemlo, startproject nomeProjeto)
+ex: "django-admin startproject setup ."
+- ctrl + shift + p pesquisa por Python Select Interpreter e seleciona o interpretador recomendado para a venv
+- Para rodar o servidor:
+    python manage.py runserver
+
+- https://www.toptal.com/developers/gitignore para saber o que não pode subir para o gitignore
